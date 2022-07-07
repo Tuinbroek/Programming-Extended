@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Akkurat-Mono;
+    src: url(Akkurat-Mono.OTF);
+}
+
+* {
+    font-family: Akkurat-Mono;
+}
+
+body {
+    font-family: Akkurat-Mono;
+    color: #FFFFFF;
+    background-color: #271F30;
+}
+
+.arrow {
+    display: block;
+    text-align: left;
+    width: 150px;
+    height: auto;
+}
+
+.text {
+    background-color: #B9929F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.categories {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.options {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}

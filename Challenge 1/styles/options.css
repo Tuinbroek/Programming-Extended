@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Akkurat-Mono;
+    src: url(Akkurat-Mono.OTF);
+}
+
+* {
+    font-family: Akkurat-Mono;
+}
+
+body {
+    font-family: Akkurat-Mono;
+    color: #FFFFFF;
+    background: linear-gradient(
+      to right,
+      #7D83FF 0%,
+      #7D83FF 25%,
+      #271F30 25%,
+      #271F30 100%
+    );
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.arrow {
+    display: block;
+    text-align: left;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.title{
+    color: white;
+    font-size: x-large;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    z-index: -1;
+}
+
+.information{
+    margin-left: 25%;
+}
+
+.details {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.data {
+    width: 18%;
+    padding: 30px;
+    margin-left: 15%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.atmosphere {
+    width: 18%;
+    padding: 30px;
+    margin-left: 15%;
+    margin-top: 10%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    background-color: #B9929F;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+input{
+    margin-top: 20px;
+    padding: 5px;
+}
