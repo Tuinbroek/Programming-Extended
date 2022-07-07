@@ -1,7 +1,7 @@
-// Set API token
+//Set API token
 mapboxgl.accessToken = 'pk.eyJ1IjoicmljaGllZWxpYSIsImEiOiJjbDU5ZzN6ejUwemI2M2Vxbng0cXRnc2Z5In0.THkdiz8DwnJWMWtaahIHJA';
 
-// Initialate map
+//Initialate map
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/richieelia/cl59hjygt009814qp4gw5ojqt',
@@ -9,8 +9,7 @@ var map = new mapboxgl.Map({
   zoom: 1,
 });
 
-map.addControl(new mapboxgl.NavigationControl());
-
+//OpenWeather
 var openWeatherMapUrl = 'https://api.openweathermap.org/data/2.5/weather';
 var openWeatherMapUrlApiKey = 'd8689c473297b130200a5a21866a4cda';
 
